@@ -1,0 +1,126 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+  }
+
+  .main {
+    background-color: #121214;
+    position: absolute;
+  }
+
+  .page {
+    border: 10px 10px solid;
+    min-height: 100%;
+    display: flex;
+    background-color: #121214;
+    margin: 0%;
+  }
+
+  .image {
+    left: 655px;
+    width: 705px;
+    height: 600px;
+    position: absolute;
+    
+  }
+
+  .logo-icon {
+    position: absolute;
+    width: 300px;
+
+  }
+
+  .frases {
+    position: absolute;
+    top: 110px;
+    background-color: #121214;
+
+  }
+
+  .atualize {
+    font-size: 33px;
+    color: #04D361;
+    left: 20px;
+  }
+
+  .noticia {
+    font-size: 18px;
+    color: #A8A8A8;
+  }
+
+  .perfect {
+    font-size: 18px;
+    color: #A8A8A8;
+  }
+
+  .all {
+    font-size: 20px;
+    color: #E1E1E6;
+  }
+
+  .segundo-icon {
+    position: absolute;
+    width: 12px;
+    left: 260px;
+    top: 190px;
+    
+  }
+
+  #total {
+    background-color: #121214;
+  }
+
+  #input {
+    position: absolute;
+    top: 350px;
+  }
+
+  .mail-input {
+    border: 2px solid #E1E1E6;
+    border-left: 5px #04D361 solid;
+    width: 590px;
+    height: 30px;
+  }
+
+   .botao {
+    position: absolute;
+    width: 50px;
+    left: 601px;
+    height: 36px;
+    border: 3px solid #8257e5;
+    background-color: #8257e5;
+    
+   }
+   
+   .send {
+    color: #8257e5;
+   }
+
+   .entrada-email {
+    color: #A8A8A8;
+    top: 250px;
+   }
+
+   .ultimo {
+    color:#8257e5;
+    position: absolute;
+    top: 450px;
+   }
+
+   .terceiro-icon {
+    position: absolute;
+    top: 15px;
+    left: 160px;
+   }
+
+   .image {
+    color: #8257e5;
+    background-image: #8257e5;
+   }
+
+
+
+
