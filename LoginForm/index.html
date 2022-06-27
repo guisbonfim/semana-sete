@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FormLogin</title>
+</head>
+<header> 
+    <span id="logo-marca" class="marca">
+        <img src="./favicon.ico" alt="" class="marca-um" id="favicon-marca">
+        <p><strong class="camp">camp.in</strong></p>
+    </span>
+</header>
+
+<body>
+    <main>
+        <div class="login" id="primeiro-acesso">
+            <img src="./log-in.svg" alt="" class="marca-dois" id="login-marca">
+            <p class="frase-acesso-um"><strong>Faça seu login</strong></p>
+            <p class="frase-acesso-dois">Entre com suas informações de cadastro.</p>
+        </div>
+
+        <div class="informacoes-contato" id="dados-contato">
+            <form>
+                <label for="email" class="email">E-mail</label>
+                <br>
+                <input type="e-mail" name="email" class="primeiro-email" id="caixa" 
+                placeholder="Digite seu e-mail">
+            </form>
+            <br>
+            <form>
+                <label for="password" class="segunda-parte">Senha</label>
+                <br>
+                <input type="password" name="password" class="segundo-password" id="caixa"
+                placeholder="Digite sua senha">
+                <br>
+                <br>
+            </form>
+        </div>
+
+        <div class="lembrete" id="lembrar">
+            <form>
+                <input type="checkbox" name="lem" class="input-checkbox" id="caixa">
+                <label for="lemb" class="terceira-etapa">Lembre-me</label>
+                <p class="esqueci"><a href="google.com.br"> Esqueci minha senha</a></p>
+            </form>
+        </div>
+
+        <div id="entrada">
+            <button id="entrar"><strong>Entrar</strong></button>
+            <p id="problem">Não tem uma conta? <a href="google.com.br"> Registre-se</a></p>
+        </div>
+
+    </main>
+</body>
+</html>
