@@ -1,0 +1,214 @@
+:root {
+    --button: #FF0000;
+    --main-background:  #C4C4C4;
+    --background: #E5E5E5;
+    --text: #000;
+    --footer: #000;
+    --text-description: #9C9696;
+  }
+  * {
+    margin: 10px;
+  }
+
+  nav {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: .8rem;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    text-decoration-color: #000;
+  }
+  
+  li {
+    text-decoration: none;
+    color: #000;
+    text-decoration-color: #000;
+  }
+
+ a:link {
+    color: #000;
+ }
+
+ a:visited {
+    color:#000;
+ }
+ a:hover {
+    color:#FF0000;
+ }
+ a:active {
+    color: blue;
+ }
+
+  .caixa-pesquisa {
+    position: absolute;
+    left: 999px;
+    top: 41px;
+    border: 5px solid white;
+  }
+  
+  .barra-pesquisa {
+    position: absolute;
+    left: 950px;
+    width: 80px;
+    height: 20px;
+    top: 43px;
+  }
+
+  .video {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0%;   
+  }
+
+  .fim-pag {
+    top: 90%;
+    position: absolute;
+  }
+
+  .principal {
+  
+  }
+
+  .lado {
+    flex: 1;
+    background-color: #E5E5E5;
+    width: 36rem;
+    margin-top: -10px;
+    margin-left: 20px;
+    height: 418px;
+  }
+
+  .meio {
+    flex: 2;
+    background-color: #C4C4C4;
+  }
+
+  .img-ampliada {
+    width: 25rem;
+    position: absolute;
+    left: 50rem;
+    top: 6rem;
+    background-color: #C4C4C4;
+  }
+  .img-um {
+    width: 10rem;
+    position: absolute;
+    top: 25rem;
+    left: 45rem;
+    background-color: #C4C4C4;
+  }
+
+  .img-dois {
+    width: 9rem;
+    position: absolute;
+    top: 25rem;
+    left: 57rem;
+    background-color: #C4C4C4;
+    border-bottom: 6px solid #FF0000;
+    border-color: #FF0000;
+  }
+
+  .img-tres {
+    width: 10rem;
+    position: absolute;
+    top: 25rem;
+    left: 68rem;
+    background-color: #C4C4C4;
+  }
+
+  .palavra-um {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    left: 20px;
+  }
+
+  .palavra-dois {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    left: 2px;
+  }
+
+  .palavra-tres {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    left: 20px;
+  }
+
+  .palavra-quatro {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    left: 20px;
+  }
+
+  body {
+    background-color: #C4C4C4;
+  }
+
+  aside {
+    background-color: #E5E5E5;
+  }
+
+  footer {
+    background-color: #C4C4C4;
+  }
+
+  .botao-vermelho {
+    border: 8px solid #FF0000;
+    background-color: #FF0000;
+  }
+
+  .botao-secundario {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #E5E5E5;
+    background-color: #FF0000;
+  }
+
+  .video {
+    position: absolute;
+    top: -50px;
+    margin: 0px;
+    background-color: #9C9696;
+  }
+
+  .link-rodape1 {
+    height: 0px;
+    left: 180px;
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  }
+
+  .botao-final {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #E5E5E5;
+    border: 8px solid #FF0000;
+    background-color: #FF0000;
+    width: 180px;
+    position: absolute;
+    top: -28px;
+    border-right: 180px solid #FF0000;
+  }
+
+  .ultima-parte {
+    color: #000;
+  }
+
+  .palavra-cinco {
+    color: #9C9696;
+    font-size: 10px;
+  }
+  .palavra-seis {
+    font-size: 40px;
+  }
